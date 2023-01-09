@@ -3,10 +3,8 @@ clc
 clear
 close all
 
-DOMAIN = 'cube';
-DENSITY = 'constant';
-% DOMAIN  = 'dodecahedron';
-% DENSITY = 'Gaussian';
+DOMAIN  = 'dodecahedron';
+DENSITY = 'Gaussian';
 
 PRINT_COVERAGE_COST = false;
 PLOT_GENERATORS = true;
